@@ -1,0 +1,15 @@
+# Ignored file pattern for sass-to-postcss
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+error.log
+
+# Node/build process
+node_modules
+.tmp

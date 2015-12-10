@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-size: rem-calc(40px);
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-shadow: 5px 5px rgba(0,0,0,0.08);
+  transition: all 0.5s ease;
+
+  &:hover {
+    text-shadow: 50px 50px rgba(0,0,0,0.08);
+  }
+}

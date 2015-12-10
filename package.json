@@ -1,0 +1,33 @@
+{
+  "name": "sass-to-postcss",
+  "version": "1.0.0",
+  "description": "Starter project for switching from Sass to PostCSS",
+  "homepage": "https://github.com/cascadehnl/sass-to-postcss",
+  "private": true,
+  "author": "Mike King",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cascadehnl/sass-to-postcss.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "cssnano": "^3.3.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsdoc": "^0.6.7",
+    "grunt-postcss": "^0.7.1",
+    "load-grunt-tasks": "^3.2.0",
+    "postcss-functions": "^2.0.0",
+    "postcss-scss": "^0.1.2",
+    "postcss-style-guide": "^0.9.0",
+    "precss": "^1.2.3",
+    "time-grunt": "^1.2.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cascadehnl/sass-to-postcss/issues"
+  }
+}
