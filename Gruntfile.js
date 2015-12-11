@@ -159,7 +159,7 @@ module.exports = function (grunt) {
         },
         scripts: {
           files: './js/**/*.js',
-          tasks: ['jshint:scripts', 'concat']
+          tasks: ['jshint:scripts', 'jsdoc', 'concat']
         },
         gruntfile: {
           files: 'Gruntfile.js',
@@ -172,6 +172,7 @@ module.exports = function (grunt) {
     // Development
     grunt.registerTask('serve', [
         'jshint',
+        'jsdoc',
         'concat',
         'postcss',
         'watch'
@@ -180,6 +181,7 @@ module.exports = function (grunt) {
     // Default: Production build
     grunt.registerTask('default', [
         'jshint',
+        'jsdoc',
         'concat',
         'uglify',
         'postcss'
